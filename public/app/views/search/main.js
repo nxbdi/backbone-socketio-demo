@@ -36,10 +36,9 @@ define([
     },
 
     tweet: function (data) {
-      console.log(data.user)
       var tweet = $('<div class="stream">'
         +'<img width="50px" height="50px" align="left" src="'+data.user.profile_image_url+'" />'
-        +'<b><a href="http://twitter.com/'+data.user.name+'" target="_blank">'+data.user.name+'</a>: </b>'
+        +'<b><a href="http://twitter.com/'+data.user.screen_name+'" target="_blank">'+data.user.name+'</a>: </b>'
         +data.text
         +'<br />'
         +'<span class="tweet-foot" title="'+data.created_at+'">'
