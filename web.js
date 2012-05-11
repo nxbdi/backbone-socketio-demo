@@ -1,12 +1,6 @@
 var express = require('express')
   , app = express.createServer()
-  , mongoose = require('mongoose')
   , io = require('socket.io').listen(app)
-
-/*
- *  Mongoose schema and other settings here
- */
-
 
 
 /*
@@ -45,7 +39,6 @@ io.configure(function () {
 io.sockets.on('connection', function (socket) {
 
   socket.on('search', function (data) {
-    console.log(data)
 
     // prepare the https request
     var https = require('https')
