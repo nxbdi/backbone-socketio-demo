@@ -1,0 +1,54 @@
+body {
+  padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+.loader {
+  background: url(../images/loader.gif) no-repeat;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+table.items-list td {
+  vertical-align: middle;
+}
+
+.stream {
+  clear: both;
+}
+
+.stream {
+  clear: both;
+  padding: 15px 0;
+  height: 56px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.stream img {
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.date {
+  padding-top: 5px;
+  font-size: 12px;
+  color: #bbb;
+}
+
+#search-results h2 span {
+  background: url(../images/loader.gif) top right no-repeat;
+  height: 26px;
+  display: inline-block;
+  width: 40px;
+}
+
+.tweet-foot {
+  margin-right: 15px;
+  color: #aaa;
+  padding-top: 5px;
+}
+
+#tweet-form textarea {
+  margin-right: 15px;
+}
